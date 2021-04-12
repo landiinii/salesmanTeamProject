@@ -484,8 +484,8 @@ class Proj5GUI(QMainWindow):
         for alg in self.ALGORITHMS:
             self.algDropDown.addItem(alg[0])
         self.algDropDown.activated.connect(self.algChanged)
-        self.algDropDown.setCurrentIndex(1)
-        self.algChanged(1)  # to handle start state
+        self.algDropDown.setCurrentIndex(2)
+        self.algChanged(2)  # to handle start state
 
         self.graphReady = False
 
